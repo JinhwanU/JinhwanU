@@ -1,18 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=rounded&color=timeGradient&text=Welcome%20to%20Jinhwan's%20GitHub%20👋&animation=twinkling&fontSize=40&fontAlignY=50&fontAlign=50&height=180)
 <div align="left">
  
-<br>
-
-## 📞 Contact 📞
-<div style="display:flex; flex-direction:row;">
-    <a href="mailto:jhwan211@gmail.com">
-        <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white"> 
-    </a>
-    <a href="https://open.kakao.com/o/sUQthLPg">
-        <img src="https://img.shields.io/badge/KakaoTalk-FFCD00?style=for-the-badge&logoColor=black&logo=KakaoTalk"> 
-    </a>
-</div><br>
-
+<br/>
 
 ## 📘 Study Plan 📘
 ![Prometheus](https://img.shields.io/badge/Prometheus-%23E6522C?style=flat-square&logo=prometheus&logoColor=white)
