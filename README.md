@@ -55,8 +55,13 @@
 ![JSP](https://img.shields.io/badge/JSP-6DB33F?style=flat-square&logoColor=white)
 ![Servlet](https://img.shields.io/badge/Servlet-%23E7282D?style=flat-square&logoColor=white)
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Tomcat](https://img.shields.io/badge/Tomcat-%23F8DC75?style=flat-square&logo=apachetomcat&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-%237952B3?style=flat-square&logo=bootstrap&logoColor=white)
+![FetchAPI](https://img.shields.io/badge/FetchAPI-%23F5455C?style=flat-square&logoColor=white)
+![Ajax](https://img.shields.io/badge/Ajax-%23F5455C?style=flat-square&logoColor=white)
 
 ### Database
 ![Oracle](https://img.shields.io/badge/Oracle-%23F80000?style=flat-square&logo=oracle&logoColor=white)
