@@ -131,6 +131,8 @@
 ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat&logo=Redis&logoColor=white)
 ![Github Actions](https://img.shields.io/badge/Github%20Actions-%232088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![CodeDeploy](https://img.shields.io/badge/CodeDeploy-%23027E6F?style=flat-square&logoColor=white)
+![Route53](https://img.shields.io/badge/Route53-%238C4FFF?style=flat-square&logo=amazonroute53&logoColor=white)
+![ALB](https://img.shields.io/badge/ALB-%238C4FFF?style=flat-square&logo=awselasticloadbalancing&logoColor=white)
 ![ECR](https://img.shields.io/badge/ECR-%23FF9900?style=flat-square&logoColor=white)
 ![mySQL](https://img.shields.io/badge/mySQL-%234479A1?style=flat-square&logo=mysql&logoColor=white)
 ![FCM](https://img.shields.io/badge/Firebase%20Cloud%20Messaging-%23DD2C00?style=flat-square&logo=firebase&logoColor=white)
@@ -148,7 +150,7 @@
 AWS에 자신감을 가지게 되었고, 여러 팀원들과의 협업, 성능 개선 등 다양한 경험을 쌓았습니다.<br/>
 AWS 관련지식이 부족했지만 검색을 통해 AWS 서비스들에 대해 열심히 공부했고, CI/CD 파이프라인까지 구축할 수 있었습니다.<br/>
 이전에는 직접 코드를 빌드하고 Filezila를 사용해 서버에 배포하는 과정이 매우 번거로웠는데, CI/CD 파이프라인을 구축한 이후로 팀원 모두 작업 효율이 올랐다며 좋아하는 모습이 뿌듯했습니다.<br/>
-스트레스 테스트 또한 진행하였는데, 캐시를 적용하여 API 성능을 개선했을때는 정말 개발자가 된 것처럼 신나기도 했습니다.<br/>
+스트레스 테스트도 진행하였는데, 캐시를 적용하여 API 성능을 개선했을때는 정말 개발자가 된 것처럼 신나기도 했습니다.<br/>
 그 외에 좋았던 경험은 push message 전송 성능을 개선 한 것이었습니다.<br/>
 Cron 표현식과 Thread를 사용해 특정 시간이 되면 push message를 전송하는 로직이 있었는데, 한번에 100개가 넘는 push message를 요청하다보니 성능 저하가 심해져서 원인을 분석해봤습니다.<br/>
 Thread가 요청 수 만큼 생성되는 것이 문제였고 Thread Pool을 적용하여 최대 Thread 개수를 적절히 조절하였습니다. 그 결과, Task 100개 기준 17초에서 2~3초로 큰 시간 단축을 이루었습니다.<br/>
@@ -176,26 +178,44 @@ Thread가 요청 수 만큼 생성되는 것이 문제였고 Thread Pool을 적�
 
 ### 희망참
 #### Open AI model 기반 혐오표현 분석 서비스
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+#### 🔨 내가 사용한 기술
+![EKS](https://img.shields.io/badge/EKS-%23FF9900?style=flat-square&logo=amazoneks&logoColor=white)
+![Fargate](https://img.shields.io/badge/Fargate-%23FF9900?style=flat-square&logo=awsfargate&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-%230F1689?style=flat-square&logo=helm&logoColor=white)
+![Github Actions](https://img.shields.io/badge/Github%20Actions-%232088FF?style=flat-square&logo=githubactions&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-%23EF7B4D?style=flat-square&logo=argo&logoColor=white)
+![ALB](https://img.shields.io/badge/ALB-%238C4FFF?style=flat-square&logo=awselasticloadbalancing&logoColor=white)
+![S3](https://img.shields.io/badge/S3-%23569A31?style=flat-square&logo=amazons3&logoColor=white)
+![RDS](https://img.shields.io/badge/RDS-%23527FFF?style=flat-square&logo=amazonrds&logoColor=white)
+![Route53](https://img.shields.io/badge/Route53-%238C4FFF?style=flat-square&logo=amazonroute53&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-%23FF4F8B?style=flat-square&logo=amazoncloudwatch&logoColor=white)
+![ECR](https://img.shields.io/badge/ECR-%23FF9900?style=flat-square&logoColor=white)
+![ACM](https://img.shields.io/badge/ACM-%23DD344C?style=flat-square&logoColor=white)
+
+#### 🔍 역할
+- Container 기반 서비스 아키텍처 설계 및 구축
+- CI/CD 파이프라인 구축
+
+#### 💊 프로젝트 회고
+
+- <b>좋았던 점</b><br/>
+
 <br/>
 
+- <b>배운 점</b><br/>
+
+<br/>
+
+- <b>부족했던 점</b><br/>
+
+<br/>
+
+### [Repository로 이동하기](https://github.com/Team6-basic/k8s-manifest-repo)
+
+<br/>
 ### Cinema
 #### 영화 예매 및 영화관 관리 서비스
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
+
+
 <br/>
