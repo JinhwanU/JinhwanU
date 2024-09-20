@@ -7,7 +7,7 @@
 
 |구분|종류|프로젝트|내용|
 |:---:|:---:|:---:|:---|
-|팀|Web|[모임 관리 서비스](#모두모여))|Websocket 활용한 실시간 위치 공유|
+|팀|Web|[모임 관리 서비스](#모두모여)|Websocket 활용한 실시간 위치 공유|
 |팀|Web|[혐오표현 노출 분석 서비스](#희망참)|AI model 활용한 STT 및 혐오표현 분석|
 |개인|Web|[영화관 예매 및 관리 서비스](#Cinema)|JSP / Servlet / Open API / 비동기통신 / Multi-DB|
 
@@ -121,13 +121,14 @@
 ## 🧾 Project Summary 🧾 
 
 ### 모두모여
-### - 실시간 위치 공유 모임 관리 서비스
+#### 📋 실시간 위치 공유 모임 관리 서비스
 #### 🔨 내가 사용한 기술
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![JPA](https://img.shields.io/badge/JPA-%236DB33F?style=flat-square&logoColor=white)
 ![EC2](https://img.shields.io/badge/EC2-%23FF9900?style=flat-square&logo=amazonec2&logoColor=white)
 ![RDS](https://img.shields.io/badge/RDS-%23527FFF?style=flat-square&logo=amazonrds&logoColor=white)
 ![S3](https://img.shields.io/badge/S3-%23569A31?style=flat-square&logo=amazons3&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat&logo=Redis&logoColor=white)
 ![Github Actions](https://img.shields.io/badge/Github%20Actions-%232088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![CodeDeploy](https://img.shields.io/badge/CodeDeploy-%23027E6F?style=flat-square&logoColor=white)
 ![ECR](https://img.shields.io/badge/ECR-%23FF9900?style=flat-square&logoColor=white)
@@ -141,18 +142,23 @@
 - CI/CD 파이프라인 구축
 - nGrinder 스트레스 테스트 진행 
 
+#### 💊 프로젝트 후기
+처음 경험해본 5주 간의 장기 프로젝트이자 프론트엔드, 디자이너 분들과의 팀 프로젝트였습니다.
+백엔드 팀원 한명이 프로젝트 초반 하차하여 시간 압박에 시달리고, 예상보다 작업 속도가 느려 일정 관리에 어려움을 겪기도 하였습니다.
+결국 기존 계획에서 몇가지 기능을 덜어낸 것이 아쉬움이 많이 남았습니다.
+좋았던 점은 해당 프로젝트를 통해 AWS에 자신감을 가지게 되었다는 것입니다.
+AWS 관련 사전지식이 미약했음에도 불구하고 열심히 검색하면서 AWS 서비스들과 Console에 있는 옵션들이 어떤 기능을 하는지 열심히 공부했고,
+그 결과 CI/CD 파이프라인까지 구축할 수 있었습니다. 이전에는 직접 코드를 빌드하고 Filezila를 사용해 서버에 배포하는 과정이 매우 번거로웠는데,
+CI/CD 파이프라인을 구축한 이후부터는 팀원 모두 작업 효율이 올랐다며 좋아하는 모습이 뿌듯했습니다.
+마지막에는 내가 구축한 서버를 대상으로 스트레스 테스트를 진행하였는데
+캐시를 적용하여 API 성능을 개선했을때는 정말 개발자가 된 것처럼 신나기도 했습니다.
+그 외에도 특별하게 느껴지는 경험으로는 push message를 전송 성능 개선을 한 것이었습니다.
+Cron 표현식과 Thread를 사용해 특정 시간이 되면 push message를 전송하는 로직이 있었는데
+한번에 100개가 넘는 push message를 요청하다보니 성능 저하가 심해져서 원인을 분석해봤습니다.
+어이없게도 한번에 너무 많은 Thread를 생성한 것이 문제였고 Thread Pool을 적용하여 최대 Thread 개수를 적절히 조절하였습니다.
+그 결과, Task 100개 기준 17초에서 2~3초로 큰 시간 단축을 이루었습니다.
 
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
 ### 희망참
 #### Open AI model 기반 혐오표현 분석 서비스
