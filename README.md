@@ -3,6 +3,19 @@
  
 <br/>
 
+## 🥕 Main Projects 🥕
+
+|구분|종류|프로젝트|내용|
+|:---:|:---:|:---:|:---|
+|팀|Web|[모임 관리 서비스](#모두모여)|Websocket 활용한 실시간 위치 공유|
+|팀|Web|혐오표현 노출 분석 서비스|AI model 활용한 STT 및 혐오표현 분석|
+|개인|Web|영화관 예매 및 관리 서비스|JSP / Servlet / Open API / 비동기통신 / Multi-DB|
+
+  
+[목차로](#목차)
+
+<br/>
+
 ## 📘 Study Plan 📘
 ![Prometheus](https://img.shields.io/badge/Prometheus-%23E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-%23F46800?style=flat-square&logo=grafana&logoColor=white)
@@ -104,3 +117,15 @@
 ## 🏆 Baekjoon 🏆
 
 [![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=jhwan211)](https://solved.ac/jhwan211)
+
+<br/>
+
+## 🧾 Project Summary 🧾 
+
+# 모두모여
+asdfsad
+sadfsadfdsa
+
+asdf
+
+
