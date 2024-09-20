@@ -176,6 +176,8 @@ Thread가 요청 수 만큼 생성되는 것이 문제였고 Thread Pool을 적�
 
 <br/>
 
+------
+
 ### 희망참
 #### 📋 Open AI model 기반 혐오표현 분석 서비스
 #### 🔨 내가 사용한 기술
@@ -213,6 +215,8 @@ Thread가 요청 수 만큼 생성되는 것이 문제였고 Thread Pool을 적�
 ### [Repository로 이동하기](https://github.com/Team6-basic/k8s-manifest-repo)
 
 <br/>
+
+------
 
 ### Cinema
 #### 📋 영화 예매 및 영화관 관리 서비스
