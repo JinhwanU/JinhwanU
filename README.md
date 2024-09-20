@@ -7,7 +7,7 @@
 
 |구분|종류|프로젝트|내용|
 |:---:|:---:|:---:|:---|
-|팀|Web|[모임 관리 서비스](#모두모여-(실시간-위치-공유-모임-관리-서비스))|Websocket 활용한 실시간 위치 공유|
+|팀|Web|[모임 관리 서비스](#모두모여))|Websocket 활용한 실시간 위치 공유|
 |팀|Web|[혐오표현 노출 분석 서비스](#희망참)|AI model 활용한 STT 및 혐오표현 분석|
 |개인|Web|[영화관 예매 및 관리 서비스](#Cinema)|JSP / Servlet / Open API / 비동기통신 / Multi-DB|
 
@@ -120,7 +120,8 @@
 
 ## 🧾 Project Summary 🧾 
 
-### 모두모여 (실시간 위치 공유 모임 관리 서비스)
+### 모두모여
+### - 실시간 위치 공유 모임 관리 서비스
 #### 🔨 내가 사용한 기술
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![JPA](https://img.shields.io/badge/JPA-%236DB33F?style=flat-square&logoColor=white)
