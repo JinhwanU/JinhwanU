@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=rounded&color=timeGradient&text=Welcome%20to%20Jinhwan's%20GitHub%20👋&animation=twinkling&fontSize=40&fontAlignY=50&fontAlign=50&height=180)
+![header](https://capsule-render.vercel.app/api?type=rounded&color=timeGradient&text=클라우드%20엔지니어를%20목표로하는%20유진환입니다&animation=twinkling&fontSize=35&fontAlignY=50&fontAlign=50&height=120)
 <div align="left">
  
 <br/>
