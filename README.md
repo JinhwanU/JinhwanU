@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=rounded&color=timeGradient&text=클라우드%20엔지니어를%20목표로하는%20유진환입니다&animation=twinkling&fontSize=35&fontAlignY=50&fontAlign=50&height=120)
+![header](https://capsule-render.vercel.app/api?type=rounded&color=timeGradient&text=클라우드%20엔지니어를%20목표로%20하는%20유진환입니다&animation=twinkling&fontSize=35&fontAlignY=50&fontAlign=50&height=120)
 <div align="left">
  
 <br/>
@@ -10,6 +10,13 @@
 |팀|Web|[모임 관리 서비스](https://github.com/5gi-6jo/TEAM-MOMO-BE)|Websocket 활용한 실시간 위치 공유|
 |팀|Web|[혐오표현 노출 분석 서비스](https://github.com/Team6-basic/k8s-manifest-repo)|AI model 활용한 STT 및 혐오표현 분석|
 |개인|Web|[영화관 예매 및 관리 서비스](https://github.com/JinhwanU/Cinema.git)|JSP / Servlet / Open API / 비동기통신 / Multi-DB|
+|개인|console|수화 인식 프로그램||
+|개인|Web|도서 관리 서비스||
+|개인|Web|Email 서비스||
+|개인|Web|헬스 커뮤니티 사이트||
+|개인|Web|인스타그램 클론 코딩||
+|개인|Web|게시판 사이트||
+|개인|Web|강의 리뷰 사이트||
 
 <br/>
 
@@ -23,11 +30,13 @@
   
 ## 🔨 Once I've used 🔨
 
-### Infra
+### Infra & OS
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Github Actions](https://img.shields.io/badge/Github%20Actions-%232088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-%23EF7B4D?style=flat-square&logo=argo&logoColor=white)
+![CentOS](https://img.shields.io/badge/CentOS-%23262577?style=flat-square&logo=centos&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-%23E95420?style=flat-square&logo=ubuntu&logoColor=white)
 
 ### AWS
 ![EKS](https://img.shields.io/badge/EKS-%23FF9900?style=flat-square&logo=amazoneks&logoColor=white)
@@ -45,21 +54,17 @@
 ![CodeDeploy](https://img.shields.io/badge/CodeDeploy-%23027E6F?style=flat-square&logoColor=white)
 ![ECR](https://img.shields.io/badge/ECR-%23FF9900?style=flat-square&logoColor=white)
 
-### OS
-![CentOS](https://img.shields.io/badge/CentOS-%23262577?style=flat-square&logo=centos&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-%23E95420?style=flat-square&logo=ubuntu&logoColor=white)
 
-### Programming Language
+### Programming Language & Framework
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-%23A8B9CC?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-%2300599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-
-### Framework
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-%23092E20?style=flat-square&logo=django&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-%23000000?style=flat-square&logo=flask&logoColor=white)
+![C](https://img.shields.io/badge/C-%23A8B9CC?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-%2300599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![MFC](https://img.shields.io/badge/MFC-%2300599C?style=flat-square&logoColor=white)
+
 
 ### Web
 ![JSP](https://img.shields.io/badge/JSP-6DB33F?style=flat-square&logoColor=white)
@@ -73,24 +78,23 @@
 ![FetchAPI](https://img.shields.io/badge/FetchAPI-%23F5455C?style=flat-square&logoColor=white)
 ![Ajax](https://img.shields.io/badge/Ajax-%23F5455C?style=flat-square&logoColor=white)
 
-### Database
+### Database & Framework
 ![Oracle](https://img.shields.io/badge/Oracle-%23F80000?style=flat-square&logo=oracle&logoColor=white)
 ![mySQL](https://img.shields.io/badge/mySQL-%234479A1?style=flat-square&logo=mysql&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/MariaDB-%23003545?style=flat-square&logo=mariadb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat&logo=Redis&logoColor=white)
-
-### Persistance Framework
 ![myBatis](https://img.shields.io/badge/myBatis-%23000000?style=flat-square&logoColor=white)
 ![JPA](https://img.shields.io/badge/JPA-%236DB33F?style=flat-square&logoColor=white)
 
 ### AI
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=TensorFlow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=Keras&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit%20learn-%23F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=OpenCV&logoColor=white)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-EC9430?style=flat&logo=MediaPipe&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit%20learn-%23F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![matplotlib](https://img.shields.io/badge/matplotlib-%23000000?style=flat-square&logoColor=white)
 
 ### Tools
 ![Git](https://img.shields.io/badge/git-%23F05032?style=flat-square&logo=git&logoColor=white)
