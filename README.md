@@ -3,13 +3,13 @@
  
 <br/>
 
-## 🥕 Main Projects 🥕
+## 🥕 Project list 🥕
 
 |구분|종류|프로젝트|내용|
 |:---:|:---:|:---:|:---|
-|팀|Web|[모임 관리 서비스](#모두모여)|Websocket 활용한 실시간 위치 공유|
-|팀|Web|[혐오표현 노출 분석 서비스](#희망참)|AI model 활용한 STT 및 혐오표현 분석|
-|개인|Web|[영화관 예매 및 관리 서비스](#Cinema)|JSP / Servlet / Open API / 비동기통신 / Multi-DB|
+|팀|Web|[모임 관리 서비스](https://github.com/5gi-6jo/TEAM-MOMO-BE)|Websocket 활용한 실시간 위치 공유|
+|팀|Web|[혐오표현 노출 분석 서비스](https://github.com/Team6-basic/k8s-manifest-repo)|AI model 활용한 STT 및 혐오표현 분석|
+|개인|Web|[영화관 예매 및 관리 서비스](https://github.com/JinhwanU/Cinema.git)|JSP / Servlet / Open API / 비동기통신 / Multi-DB|
 
 <br/>
 
@@ -146,7 +146,7 @@
 
 #### 💊 프로젝트 회고
 
-- <b>좋았던 점</b><br/>
+- <b>잘한점</b><br/>
 AWS에 자신감을 가지게 되었고, 여러 팀원들과의 협업, 성능 개선 등 다양한 경험을 쌓았습니다.<br/>
 AWS 관련지식이 부족했지만 검색을 통해 AWS 서비스들에 대해 열심히 공부했고, CI/CD 파이프라인까지 구축할 수 있었습니다.<br/>
 이전에는 직접 코드를 빌드하고 Filezila를 사용해 서버에 배포하는 과정이 매우 번거로웠는데, CI/CD 파이프라인을 구축한 이후로 팀원 모두 작업 효율이 올랐다며 좋아하는 모습이 뿌듯했습니다.<br/>
@@ -169,10 +169,6 @@ Thread가 요청 수 만큼 생성되는 것이 문제였고 Thread Pool을 적�
 개발단계에서는 주 3회정도 회의를 진행하였는데, 일정관리 이슈 이후로 매일 회의를 진행하며 진행 상황을 공유하는 것이 중요하다는 것을 느꼈습니다.<br/>
 프로젝트 중간에 수시로 DB 테이블을 변경하여 코드를 수정하는데 많은 시간을 사용하기도 했습니다.<br/>
 이를 통해 프로젝트 설계를 꼼꼼히 해야 나중에 고생을 덜한다는 것을 뼈저리게 느꼈습니다.<br/>
-
-<br/>
-
-### [Repository로 이동하기](https://github.com/5gi-6jo/TEAM-MOMO-BE)
 
 <br/>
 
@@ -212,9 +208,6 @@ Thread가 요청 수 만큼 생성되는 것이 문제였고 Thread Pool을 적�
 
 <br/>
 
-### [Repository로 이동하기](https://github.com/Team6-basic/k8s-manifest-repo)
-
-<br/>
 
 ------
 
@@ -250,8 +243,5 @@ Thread가 요청 수 만큼 생성되는 것이 문제였고 Thread Pool을 적�
 
 - <b>부족했던 점</b><br/>
 
-<br/>
-
-### [Repository로 이동하기](https://github.com/JinhwanU/Cinema.git)
 
 <br/>
