@@ -102,6 +102,7 @@
 ![VisualStudioCode](https://img.shields.io/badge/Visual_Studio_Code-000000?style=flat&logo=Visual_Studio&logoColor=white)
 ![JupyterNotebook](https://img.shields.io/badge/Jupyter_Notebook-F37626?style=flat&logo=Jupyter&logoColor=white)
 ![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=flat&logo=Anaconda&logoColor=white)
+![nGrinder](https://img.shields.io/badge/nGrinder-%2303C75A?style=flat-square&logo=naver&logoColor=white)
 
 ### Cooperation Tools
 ![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat&logo=Slack&logoColor=white)
@@ -119,8 +120,27 @@
 
 ## 🧾 Project Summary 🧾 
 
-### 모두모여
-#### 실시간 위치 공유 모임 관리 서비스
+### 모두모여 (실시간 위치 공유 모임 관리 서비스)
+#### 🔨 내가 사용한 기술
+![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA-%236DB33F?style=flat-square&logoColor=white)
+![EC2](https://img.shields.io/badge/EC2-%23FF9900?style=flat-square&logo=amazonec2&logoColor=white)
+![RDS](https://img.shields.io/badge/RDS-%23527FFF?style=flat-square&logo=amazonrds&logoColor=white)
+![S3](https://img.shields.io/badge/S3-%23569A31?style=flat-square&logo=amazons3&logoColor=white)
+![Github Actions](https://img.shields.io/badge/Github%20Actions-%232088FF?style=flat-square&logo=githubactions&logoColor=white)
+![CodeDeploy](https://img.shields.io/badge/CodeDeploy-%23027E6F?style=flat-square&logoColor=white)
+![ECR](https://img.shields.io/badge/ECR-%23FF9900?style=flat-square&logoColor=white)
+![mySQL](https://img.shields.io/badge/mySQL-%234479A1?style=flat-square&logo=mysql&logoColor=white)
+![FCM](https://img.shields.io/badge/Firebase%20Cloud%20Messaging-%23DD2C00?style=flat-square&logo=firebase&logoColor=white)
+![nGrinder](https://img.shields.io/badge/nGrinder-%2303C75A?style=flat-square&logo=naver&logoColor=white)
+
+#### 🔍 역할
+- Rest API 개발
+- AWS 인프라 구성
+- CI/CD 파이프라인 구축
+- nGrinder 스트레스 테스트 진행 
+
+
 
 <br/>
 <br/>
@@ -134,6 +154,7 @@
 <br/>
 
 ### 희망참
+#### Open AI model 기반 혐오표현 분석 서비스
 <br/>
 <br/>
 <br/>
@@ -146,6 +167,7 @@
 <br/>
 
 ### Cinema
+#### 영화 예매 및 영화관 관리 서비스
 <br/>
 <br/>
 <br/>
