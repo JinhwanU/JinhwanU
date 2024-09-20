@@ -11,9 +11,6 @@
 |팀|Web|혐오표현 노출 분석 서비스|AI model 활용한 STT 및 혐오표현 분석|
 |개인|Web|영화관 예매 및 관리 서비스|JSP / Servlet / Open API / 비동기통신 / Multi-DB|
 
-  
-[목차로](#목차)
-
 <br/>
 
 ## 📘 Study Plan 📘
@@ -122,7 +119,7 @@
 
 ## 🧾 Project Summary 🧾 
 
-# 모두모여
+### 모두모여
 asdfsad
 sadfsadfdsa
 
