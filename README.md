@@ -213,6 +213,7 @@ Thread가 요청 수 만큼 생성되는 것이 문제였고 Thread Pool을 적�
 ### [Repository로 이동하기](https://github.com/Team6-basic/k8s-manifest-repo)
 
 <br/>
+
 ### Cinema
 #### 📋 영화 예매 및 영화관 관리 서비스
 #### 🔨 내가 사용한 기술
@@ -226,6 +227,7 @@ Thread가 요청 수 만큼 생성되는 것이 문제였고 Thread Pool을 적�
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-%237952B3?style=flat-square&logo=bootstrap&logoColor=white)
 ![FetchAPI](https://img.shields.io/badge/FetchAPI-%23F5455C?style=flat-square&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-%23F80000?style=flat-square&logo=oracle&logoColor=white)
 
 #### 🔍 역할
 - REST API 개발
