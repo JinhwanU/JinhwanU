@@ -7,16 +7,16 @@
 
 |구분|종류|프로젝트|내용|
 |:---:|:---:|:---:|:---|
-|팀|Web|[모임 관리 서비스](https://github.com/5gi-6jo/TEAM-MOMO-BE)|Websocket 활용한 실시간 위치 공유|
-|팀|Web|[혐오표현 노출 분석 서비스](https://github.com/Team6-basic/k8s-manifest-repo)|AI model 활용한 STT 및 혐오표현 분석|
-|개인|Web|[영화관 예매 및 관리 서비스](https://github.com/JinhwanU/Cinema.git)|JSP / Servlet / Open API / 비동기통신 / Multi-DB|
-|개인|console|수화 인식 프로그램||
-|개인|Web|도서 관리 서비스||
-|개인|Web|Email 서비스||
-|개인|Web|헬스 커뮤니티 사이트||
-|개인|Web|인스타그램 클론 코딩||
-|개인|Web|게시판 사이트||
-|개인|Web|강의 리뷰 사이트||
+|팀|Web|[모임 관리 서비스](https://github.com/5gi-6jo/TEAM-MOMO-BE)|Websocket 활용한 실시간 위치 공유<br/>AWS 인프라 구축<br/>CI/CD 파이프라인 구축(Github Actions/CodeDeploy)<br/>Threadpool 활용한 성능 개선<br/>스트레스 테스트<br/>도메인 및 HTTPS 적용|
+|팀|Web|[혐오표현 노출 분석 서비스](https://github.com/Team6-basic/k8s-manifest-repo)|AI model 활용한 STT 및 혐오표현 분석<br/>EKS 활용한 Container 기반 아키텍처 설계/구축<br/>CI/CD 파이프라인 구축(Github Actions/ArgoCD)<br/>고가용성 설계(오토 스케일링/다중AZ)<br/>도메인 및 HTTPS 적용|
+|개인|Web|[영화관 예매 및 관리 서비스](https://github.com/JinhwanU/Cinema.git)|JSP/Servlet 기반 웹 애플리케이션<br/>Open API 호출<br/>Fetch API를 통한 비동기통신 적용<br/>myBatis 활용한 Multi-DB 연결 구성|
+|개인|console|수화 인식 프로그램|Mediapipe 활용한 수화 인식 프로그램 개발<br/>Yolo 모델 성능 테스트<br/>|
+|개인|Web|도서 관리 서비스|Springboot 기반 애플리케이션 개발|
+|개인|Web|Email 서비스|JSP/Servlet 기반 애플리케이션 개발|
+|개인|Web|헬스 커뮤니티 사이트|Django 기반 애플리케이션 개발|
+|개인|Web|인스타그램 클론 코딩|Springboot 기반 애플리케이션 개발|
+|개인|Web|게시판 사이트|Springboot 기반 애플리케이션 개발|
+|개인|Web|강의 리뷰 사이트|Flask 개반 애플리케이션 개발|
 
 <br/>
 
