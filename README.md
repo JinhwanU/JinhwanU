@@ -10,13 +10,13 @@
 |팀|Web|[모임 관리 서비스](https://github.com/5gi-6jo/TEAM-MOMO-BE)|Websocket 활용한 실시간 위치 공유<br/>AWS 인프라 구축<br/>CI/CD 파이프라인 구축(Github Actions/CodeDeploy)<br/>Threadpool 활용한 성능 개선<br/>스트레스 테스트<br/>도메인 및 HTTPS 적용|
 |팀|Web|[혐오표현 노출 분석 서비스](https://github.com/Team6-basic/k8s-manifest-repo)|AI model 활용한 STT 및 혐오표현 분석<br/>EKS 활용한 Container 기반 아키텍처 설계/구축<br/>CI/CD 파이프라인 구축(Github Actions/ArgoCD)<br/>고가용성 설계(오토 스케일링/다중AZ)<br/>도메인 및 HTTPS 적용|
 |개인|Web|[영화관 예매 및 관리 서비스](https://github.com/JinhwanU/Cinema.git)|JSP/Servlet 기반 웹 애플리케이션<br/>Open API 호출<br/>Fetch API를 통한 비동기통신 적용<br/>myBatis 활용한 Multi-DB 연결 구성|
-|개인|console|수화 인식 프로그램|Mediapipe 활용한 수화 인식 프로그램 개발<br/>Yolo 모델 성능 테스트<br/>|
-|개인|Web|도서 관리 서비스|Springboot 기반 애플리케이션 개발|
-|개인|Web|Email 서비스|JSP/Servlet 기반 애플리케이션 개발|
-|개인|Web|헬스 커뮤니티 사이트|Django 기반 애플리케이션 개발|
-|개인|Web|인스타그램 클론 코딩|Springboot 기반 애플리케이션 개발|
-|개인|Web|게시판 사이트|Springboot 기반 애플리케이션 개발|
-|개인|Web|강의 리뷰 사이트|Flask 개반 애플리케이션 개발|
+|개인|console|[수화 인식 프로그램](https://github.com/JinhwanU/mediapipe_sign_language.git)|Mediapipe 활용한 수화 인식 프로그램 개발<br/>Yolo 모델 성능 테스트<br/>|
+|개인|Web|[도서 관리 서비스](https://github.com/JinhwanU/Book_Management_System.git)|Springboot 기반 애플리케이션 개발|
+|개인|Web|[Email 서비스](https://github.com/JinhwanU/email-web.git)|JSP/Servlet 기반 애플리케이션 개발|
+|개인|Web|[헬스 커뮤니티 사이트](https://github.com/JinhwanU/Heco.git)|Django 기반 애플리케이션 개발|
+|개인|Web|[인스타그램 클론 코딩](https://github.com/JinhwanU/hanghae_magazine.git)|Springboot 기반 애플리케이션 개발|
+|개인|Web|[게시판 사이트](https://github.com/JinhwanU/hanghae_board.git)|Springboot 기반 애플리케이션 개발|
+|개인|Web|[강의 리뷰 사이트](https://github.com/JinhwanU/studystarter.git)|Flask 기반 애플리케이션 개발|
 
 <br/>
 
@@ -124,8 +124,9 @@
 
 ## 🧾 Project Summary 🧾 
 
-### 모두모여
-#### 📋 실시간 위치 공유 모임 관리 서비스
+<br/>
+
+### 📋 실시간 위치 공유 모임 관리 서비스
 #### 🔨 내가 사용한 기술
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![JPA](https://img.shields.io/badge/JPA-%236DB33F?style=flat-square&logoColor=white)
@@ -150,36 +151,25 @@
 
 #### 💊 프로젝트 회고
 
-- <b>잘한점</b><br/>
-AWS에 자신감을 가지게 되었고, 여러 팀원들과의 협업, 성능 개선 등 다양한 경험을 쌓았습니다.<br/>
-AWS 관련지식이 부족했지만 검색을 통해 AWS 서비스들에 대해 열심히 공부했고, CI/CD 파이프라인까지 구축할 수 있었습니다.<br/>
-이전에는 직접 코드를 빌드하고 Filezila를 사용해 서버에 배포하는 과정이 매우 번거로웠는데, CI/CD 파이프라인을 구축한 이후로 팀원 모두 작업 효율이 올랐다며 좋아하는 모습이 뿌듯했습니다.<br/>
-스트레스 테스트도 진행하였는데, 캐시를 적용하여 API 성능을 개선했을때는 정말 개발자가 된 것처럼 신나기도 했습니다.<br/>
-그 외에 좋았던 경험은 push message 전송 성능을 개선 한 것이었습니다.<br/>
-Cron 표현식과 Thread를 사용해 특정 시간이 되면 push message를 전송하는 로직이 있었는데, 한번에 100개가 넘는 push message를 요청하다보니 성능 저하가 심해져서 원인을 분석해봤습니다.<br/>
-Thread가 요청 수 만큼 생성되는 것이 문제였고 Thread Pool을 적용하여 최대 Thread 개수를 적절히 조절하였습니다. 그 결과, Task 100개 기준 17초에서 2~3초로 큰 시간 단축을 이루었습니다.<br/>
-다양한 문제 상황이 발생하고 이를 해결하는 과정에서 한층 성장할 수 있어서 좋았습니다.<br/>
-
-- <b>배운 점</b><br/>
-처음 경험해본 5주 간의 장기 프로젝트이자 프론트엔드, 디자이너 분들과의 팀 프로젝트였습니다.<br/>
-다양한 분야의 팀원들과의 협업을 통해 실무 현장에서 어떤식으로 개발이 이루어지는지 미리 체험해 볼 수 있었습니다<br/>
-또한, 배우지 않은 기술이라고 할 지라도 이를 사용하는데는 겁을 낼 필요가 없다는 것을 알게되었습니다<br/>
-개발 직무를 하다보면 비슷한 상황이 많이 발생할텐데 이번 경험을 통해 새로 배우는 것에 대한 거부감이 많이 사라졌습니다.<br/>
-마지막으로, 개발 직무 뿐만 아니라 개발 환경을 설계 및 구축하는 클라우드 엔지니어 및 DevOps에 대해 알게 되었고 관심을 가지게 됐습니다<br/>
+- <b>잘한 점</b><br/>
+AWS 서비스 인프라 및 CI/CD 파이프라인 구축<br/>
+nGrinder 스트레스 테스트 진행<br/>
+Redis 캐시 적용하여 API 성능 개선<br/>
+Thread Pool 사용한 push message 전송 성능 개선<br/>
   
 - <b>부족했던 점</b><br/>
-백엔드 팀원 한명이 프로젝트 초반 하차하여 시간 압박에 시달리고, 예상보다 작업 속도가 느려 일정 관리에 어려움을 겪었습니다.<br/>
-결국 기존 계획에서 기능을 덜어낸 것이 아쉬움이 많이 남았습니다.(회원 관련기능)<br/>
-개발단계에서는 주 3회정도 회의를 진행하였는데, 일정관리 이슈 이후로 매일 회의를 진행하며 진행 상황을 공유하는 것이 중요하다는 것을 느꼈습니다.<br/>
-프로젝트 중간에 수시로 DB 테이블을 변경하여 코드를 수정하는데 많은 시간을 사용하기도 했습니다.<br/>
-이를 통해 프로젝트 설계를 꼼꼼히 해야 나중에 고생을 덜한다는 것을 뼈저리게 느꼈습니다.<br/>
+팀원 간 프로젝트 진행 상황 공유 미흡<br/>
+DB 테이블 설계<br/>
+
+- <b>배운 점</b><br/>
+팀원들과의 협업 스킬<br/>
+AWS 활용한 서비스 인프라 구성 스킬<br/>
 
 <br/>
 
 ------
 
-### 희망참
-#### 📋 Open AI model 기반 혐오표현 분석 서비스
+### 📋 Open AI model 기반 혐오표현 분석 서비스
 #### 🔨 내가 사용한 기술
 ![EKS](https://img.shields.io/badge/EKS-%23FF9900?style=flat-square&logo=amazoneks&logoColor=white)
 ![Fargate](https://img.shields.io/badge/Fargate-%23FF9900?style=flat-square&logo=awsfargate&logoColor=white)
@@ -200,23 +190,25 @@ Thread가 요청 수 만큼 생성되는 것이 문제였고 Thread Pool을 적�
 
 #### 💊 프로젝트 회고
 
-- <b>좋았던 점</b><br/>
-
-<br/>
-
-- <b>배운 점</b><br/>
-
-<br/>
+- <b>잘한 점</b><br/>
+고가용성 서비스 아키텍처 설계<br/>
+ArgoCD 적용<br/>
 
 - <b>부족했던 점</b><br/>
+모니터링 시스템(Prometheus/Grafana) 적용 실패<br/>
+CI 프로세스 내의 테스트 과정 생략<br/>
+Helm 활용한 Kubernetes 패키지 관리<br/>
+
+- <b>배운 점</b><br/>
+Docker/Kubernetes 활용한 리소스 관리<br/>
+비용/고가용성/확장성을 고려한 아키텍처 설계 스킬<br/>
 
 <br/>
 
 
 ------
 
-### Cinema
-#### 📋 영화 예매 및 영화관 관리 서비스
+### 📋 영화 예매 및 영화관 관리 서비스
 #### 🔨 내가 사용한 기술
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)
 ![JSP](https://img.shields.io/badge/JSP-6DB33F?style=flat-square&logoColor=white)
@@ -237,15 +229,19 @@ Thread가 요청 수 만큼 생성되는 것이 문제였고 Thread Pool을 적�
 
 #### 💊 프로젝트 회고
 
-- <b>좋았던 점</b><br/>
-
-<br/>
-
-- <b>배운 점</b><br/>
-
-<br/>
+- <b>잘한 점</b><br/>
+프로젝트 기능 및 DB 테이블 설계<br/>
+Bootstrap 활용한 UI 구현<br/>
+Open API 활용한 서비스 기능 구현<br/>
+비동기 통신 적용<br/>
 
 - <b>부족했던 점</b><br/>
+Javascript 미숙으로 인한 일정 지연<br/>
+형상관리도구 소극적 활용<br/>
+Local 환경에서만 배포<br/>
 
+- <b>배운 점</b><br/>
+개발 우선순위 설정 및 일정관리의 중요성<br/>
+형상관리의 중요성<br/>
 
 <br/>
